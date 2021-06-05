@@ -1,0 +1,59 @@
+.workout_list{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    margin-top: 12vh;
+    grid-template-columns: auto auto;
+}
+.workout_boxes{
+    background-color: white;
+    height: fit-content;
+    width:350px;
+    border: 2px solid green;
+    margin: 3vh;
+    margin-bottom: 7vh;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
+}
+.workout_boxes h1{
+    color: black;
+    font-size: 2rem;
+    padding: 2px;
+    justify-content: center;
+    text-align: center;
+}
+
+.workout_boxes a{
+    background-color: rgb(200, 0, 77);
+    font-size: 1.2rem;
+    color: white;
+    
+}
+.workout_boxes p{
+    padding: 10px;
+    text-align: justify;
+}
+
+.workout_boxes img{
+    display: inline-block;
+    height: 200px;
+    width: 350px;
+    margin: auto;
+    
+}
+
+@media screen and (max-width:970px){
+    .absworkout_list{
+        grid-template-columns: auto;
+
+    }
+    .workout_boxes{
+        padding: 0px;
+        width: 360px;
+
+    }
+    .workout_boxes img{
+        margin-top: 0px;
+    }
+}
